@@ -1,0 +1,6 @@
+t=float(input('digite o tamanho do arquivo em MB:'))
+v=float(input('digite a velocidade da conexao em Mbps:'))
+t1=(t*8)/v
+m=t1//60
+s=t1% 60
+print(m,'minutos e ',s,'segundos')
